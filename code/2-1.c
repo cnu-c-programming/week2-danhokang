@@ -10,6 +10,7 @@ int main()
     printf("long: %zu\n", sizeof(long));
     printf("long long: %zu\n", sizeof(long long));
     printf("float: %zu\n", sizeof(float));
+    
     return 0;
     
 }
