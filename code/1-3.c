@@ -2,14 +2,12 @@
 
 int main()
 {
+    int age;
+    char grade;
+    float gpa;
 
-    int a, b;
-    float c;
-
-    scanf("%d %d %f", &a, &b, &c);
-
-    printf("%d %d %f", a, b, c);
-
+    scanf("%d %c %f", &age, &grade, &gpa);
+    printf("%d %c %f\n", age, grade, gpa);
 
     return 0;
 }
